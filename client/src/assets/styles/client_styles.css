@@ -1,0 +1,92 @@
+:root {
+  --anser-blue: #4E758D;
+  --anser-blue-muted: #7C9BC1;
+  --anser-blue-dark: #023C5B;
+  --anser-orange: #F08B21;
+  --main-background: #FDFDFD;
+}
+
+.ticketHolder {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.ticketNavbarHolder {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: none;
+  padding: 0;
+}
+
+.ticketHeaderContentImage {
+  margin: 5px;
+  height: 200px;
+  width: 500px;
+}
+
+.ticketContentHolder {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  overflow: none;
+  padding: 0;
+}
+
+.ticketNavbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.ticketMenuHolder {
+  background-color: var(--anser-blue-dark);
+  color: white;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  min-width: 100px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  width: 5%;
+  max-width: 250px;
+  min-width: 150px;
+}
+
+.ticketMenuItems {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.ticketMenuItems:hover {
+  cursor: pointer;
+  background-color: var(--anser-orange);
+}
+
+#ticketingLogOut {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+#ticketUsersHolder {
+  border: 5px solid var(--anser-blue-muted);
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.ticketHeader {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+}

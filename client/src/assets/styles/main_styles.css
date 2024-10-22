@@ -1,0 +1,87 @@
+:root {
+  --anser-blue: #4E758D;
+  --anser-blue-muted: #7C9BC1;
+  --anser-blue-dark: #023C5B;
+  --anser-orange: #F08B21;
+  --main-background: #FDFDFD;
+}
+
+.banner {
+  align-items: center;
+  background-color: var(--anser-blue-dark);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 55px;
+}
+
+.mailToLink {
+  color: white;
+}
+
+.headerContent {
+  height: 250px;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+.headerContentImage {
+  height: 200px;
+  width: auto;
+}
+
+.navbar {
+  align-items: center;
+  background-color: var(--anser-blue);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  height: 55px;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;  
+  position: relative;
+}
+
+.menuHolder {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;  
+  width: 100%;
+}
+
+.menuItems {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  height: 100%;
+  width: 8%;
+}
+
+.menuItems:hover {
+  background-color: var(--anser-orange);
+  cursor: pointer;
+}
+
+.navBarLinks {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+
+.body {
+  background-color: var(--main-background);
+  height: 100vh;
+}
+
+.footer {
+  background-color: var(--anser-blue-muted);
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+node_modules
+.env
+.DS_Store
+package-lock.json
+build
+anser-wildcard-2023.pfx
+anser-wildcard-2023.pem
+anser-wildcard-2023.crt
+anser-wildcard-2023.key
+anser-wildcard-2023-decrypted.key
+json/
