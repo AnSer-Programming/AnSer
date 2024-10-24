@@ -25,4 +25,22 @@ export const getUsers = () => {
       'Content-Type': 'application/json',
     },
   });
-}
+};
+
+export const getTickets = () => {
+  return fetch(`/api/ticket`, {
+    headers: {
+      method: 'GET',
+      'Content-Type': 'application/json',
+    },
+  });
+};
+
+export const getRolodex = () => {
+  return fetch(`/api/rolodex`, {
+    headers: {
+      method: 'GET',
+      'Content-Type': 'application/json',
+    },
+  });
+};

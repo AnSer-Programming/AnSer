@@ -23,18 +23,20 @@ const Index = (data) => {
         </div>
         <div className="ticketContentHolder">
           <div className="ticketHeader">
-          <img src={logo} className="ticketHeaderContentImage" />
-          <p>Where ticketing software meets answering solutions</p>
+            <img src={logo} className="ticketHeaderContentImage" />
+            <p>Where ticketing software meets answering solutions</p>
           </div>
-          {
+          <div className="ticketContent">
             {
-              'Calendar': <Calendar />,
-              'Index': <Dashboard />,
-              'TicketManager': <TicketManager />,
-              'Rolodex': <Rolodex />,
-              'Users': <Users />
-            }[data.page]
-          }
+              {
+                'Calendar': <Calendar />,
+                'Index': <Dashboard />,
+                'TicketManager': <TicketManager />,
+                'Rolodex': <Rolodex />,
+                'Users': <Users />
+              }[data.page]
+            }
+          </div>
         </div>
       </div>
     </>
