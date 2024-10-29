@@ -60,7 +60,7 @@ const Rolodex = () => {
         );
       } else {
         rows.push(
-          <tr key={`Row${i}`} className='ticketTableRow' id='ticketLastRow' onClick={() => view(i)}>
+          <tr key={`Row${i}`} className='ticketTableRow' onClick={() => view(i)}>
             <td className='ticketTableField'>{rolodexData.contacts[i].firstName}</td>
             <td className='ticketTableField'>{rolodexData.contacts[i].lastName}</td>
             <td className='ticketTableField'>{rolodexData.contacts[i].email}</td>

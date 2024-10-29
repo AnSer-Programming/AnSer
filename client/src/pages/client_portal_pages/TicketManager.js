@@ -60,7 +60,7 @@ const TicketManager = () => {
         );
       } else {
         rows.push(
-          <tr key={`Row${i}`} className='ticketTableRow' id='ticketLastRow' onClick={() => view(i)}>
+          <tr key={`Row${i}`} className='ticketTableRow' onClick={() => view(i)}>
             <td className='ticketTableField'>{ticketData.tickets[i].title}</td>
             <td className='ticketTableField'>{ticketData.tickets[i].from}</td>
             <td className='ticketTableField'>{ticketData.tickets[i].urgency}</td>

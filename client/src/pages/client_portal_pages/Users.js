@@ -60,7 +60,7 @@ const Users = () => {
         );
       } else {
         rows.push(
-          <tr key={`Row${i}`} className='ticketTableRow' id='ticketLastRow' onClick={() => view(i)}>
+          <tr key={`Row${i}`} className='ticketTableRow' onClick={() => view(i)}>
             <td className='ticketTableField'>{userData.users[i].userType}</td>
             <td className='ticketTableField'>{userData.users[i].userFirstName}</td>
             <td className='ticketTableField'>{userData.users[i].userLastName}</td>
